@@ -118,7 +118,7 @@ body {
 /* Contact Section */
 
 .contact-box {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.301);
   border-radius: 20px;
   margin: 15px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
@@ -145,5 +145,10 @@ body {
 .contact-box textarea:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(255,255,255,0.5); 
-  background: rgba(255, 255, 255, 0.2);      
+  background: rgba(255, 255, 255, 0.2);   
+  color: white;   
+}
+
+.contact-section .container {
+  background-color:transparent;
 }
